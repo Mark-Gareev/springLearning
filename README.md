@@ -1,2 +1,2 @@
 # springLearning
-repo to contain all little projects where I learn how to use Spring, Hibernate, H2-base, etc
+Здесь я хочу подключить embedded базу, пописать в нее и почитать из нее. Ничего необычного
