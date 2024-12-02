@@ -1,0 +1,1 @@
+create table users(ID bigint primary key, NAME varchar(255),AGE int,BIRTH_DATE date)

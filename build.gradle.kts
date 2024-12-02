@@ -30,6 +30,14 @@ dependencies {
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-configuration-processor
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-logging
     implementation("org.springframework.boot:spring-boot-starter-logging:3.4.0")
+    // https://mvnrepository.com/artifact/com.h2database/h2
+    implementation("com.h2database:h2:2.3.232")
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jdbc
+    implementation("org.springframework.boot:spring-boot-starter-jdbc:3.4.0")
+    // https://mvnrepository.com/artifact/org.springframework.shell/spring-shell-starter
+    implementation("org.springframework.shell:spring-shell-starter:3.3.3")
+
+
 
 
 // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test
