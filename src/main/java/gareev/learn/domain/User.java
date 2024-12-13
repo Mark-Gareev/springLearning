@@ -1,8 +1,15 @@
 package gareev.learn.domain;
 
+
+import jakarta.persistence.*;
+
 import java.time.LocalDate;
 
+@Entity
+@Table(name = "users")
 public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
     private Integer age;
@@ -42,12 +49,9 @@ public class User {
 
     @Override
     public String toString() {
-        StringBuilder builder = new StringBuilder();
-        builder.append(this.name)
-                .append(" : ")
-                .append(this.age)
-                .append(" : ")
-                .append(this.birthDate.toString());
-        return builder.toString();
+        return "id : " + this.id
+                + " : " + this.name +
+                " : " + this.age +
+                " : " + this.birthDate.toString();
     }
 }

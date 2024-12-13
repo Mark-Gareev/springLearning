@@ -1,4 +1,4 @@
-package gareev.learn.persistence;
+package gareev.learn.persistence.user;
 
 import gareev.learn.domain.User;
 

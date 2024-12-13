@@ -1,7 +1,7 @@
 package gareev.learn.service;
 
 import gareev.learn.domain.User;
-import gareev.learn.persistence.UserDao;
+import gareev.learn.persistence.user.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
